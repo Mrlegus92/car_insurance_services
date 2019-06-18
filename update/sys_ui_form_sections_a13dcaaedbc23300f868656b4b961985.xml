@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="a13dcaaedbc23300f868656b4b961985" sys_domain="global" table="x_360894_cis_insurance_user" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-18 05:34:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a53dcaaedbc23300f868656b4b961987</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_360894_cis_insurance_user" name="x_360894_cis_insurance_user" sys_domain="global" view="Default view">a13dcaaedbc23300f868656b4b961985</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_360894_cis_insurance_user" sys_domain="global" view="Default view">1feb0eeadbc23300f868656b4b9619d8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-18 05:34:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-18 05:34:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a13dcaaedbc23300f868656b4b961988</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_360894_cis_insurance_user" name="x_360894_cis_insurance_user" sys_domain="global" view="Default view">a13dcaaedbc23300f868656b4b961985</sys_ui_form>
+            <sys_ui_section caption="Address" display_value="Address" name="x_360894_cis_insurance_user" sys_domain="global" view="Default view">6d3dcaaedbc23300f868656b4b961983</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-18 05:34:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-18 05:34:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f93dcaaedbc23300f868656b4b96198b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_360894_cis_insurance_user" name="x_360894_cis_insurance_user" sys_domain="global" view="Default view">a13dcaaedbc23300f868656b4b961985</sys_ui_form>
+            <sys_ui_section caption="Settings" display_value="Settings" name="x_360894_cis_insurance_user" sys_domain="global" view="Default view">653dcaaedbc23300f868656b4b961984</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-18 05:34:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_360894_cis_insurance_user</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-18 05:34:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a13dcaaedbc23300f868656b4b961985</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_360894_cis_insurance_user</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Car Insurance Services" source="x_360894_cis">318c7562dbc23300f868656b4b96198d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Car Insurance Services">318c7562dbc23300f868656b4b96198d</sys_scope>
+            <sys_update_name>sys_ui_form_sections_a13dcaaedbc23300f868656b4b961985</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-18 05:34:39</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
