@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_360894_cis.insurance_policy_user" name="x_360894_cis.insurance_policy_user">5a040072db0a3300f868656b4b961958</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-18 14:13:47</sys_created_on>
+        <sys_id>96040072db0a3300f868656b4b96195b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>5a040072db0a3300f868656b4b961958</sys_name>
+        <sys_package display_value="Car Insurance Services" source="x_360894_cis">318c7562dbc23300f868656b4b96198d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Insurance Services">318c7562dbc23300f868656b4b96198d</sys_scope>
+        <sys_update_name>sys_embedded_help_role_96040072db0a3300f868656b4b96195b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-18 14:13:47</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

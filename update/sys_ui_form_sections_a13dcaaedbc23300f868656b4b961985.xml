@@ -42,6 +42,20 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2019-06-18 05:34:39</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-18 14:59:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>df8e00fadb0a3300f868656b4b9619ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_360894_cis_insurance_user" name="x_360894_cis_insurance_user" sys_domain="global" view="Default view">a13dcaaedbc23300f868656b4b961985</sys_ui_form>
+            <sys_ui_section caption="Insurance policy(ies)" display_value="Insurance policy(ies)" name="x_360894_cis_insurance_user" sys_domain="global" view="Default view">5f8e00fadb0a3300f868656b4b9619fd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-18 14:59:44</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_360894_cis_insurance_user</name>
             <roles/>

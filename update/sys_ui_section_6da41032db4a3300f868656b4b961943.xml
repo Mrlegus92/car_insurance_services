@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Vehicles" section_id="6da41032db4a3300f868656b4b961943" sys_domain="global" table="x_360894_cis_vehicle" version="3" view="">
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Vehicles</caption>
+            <header>false</header>
+            <name>x_360894_cis_vehicle</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-18 15:26:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6da41032db4a3300f868656b4b961943</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Vehicles</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Car Insurance Services" source="x_360894_cis">318c7562dbc23300f868656b4b96198d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Car Insurance Services">318c7562dbc23300f868656b4b96198d</sys_scope>
+            <sys_update_name>sys_ui_section_6da41032db4a3300f868656b4b961943</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-18 15:26:23</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
