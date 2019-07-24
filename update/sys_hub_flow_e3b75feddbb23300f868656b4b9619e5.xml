@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>With this flow the service center coordinates are calculated</description>
+        <internal_name>set_service_center_coordinates</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current.state","label":"Trigger➛Service center Record➛State / Province","reference":"","reference_display":"State / Province","type":"string","base_type":"string","parent_table_name":"x_360894_cis_service_center","column_name":"state"},{"name":"Created or Updated_1.current.zip","label":"Trigger➛Service center Record➛Zip / Postal Code","reference":"","reference_display":"Zip / Postal Code","type":"string","base_type":"string","parent_table_name":"x_360894_cis_service_center","column_name":"zip"},{"name":"Created or Updated_1.current.city","label":"Trigger➛Service center Record➛City","reference":"","reference_display":"City","type":"string","base_type":"string","parent_table_name":"x_360894_cis_service_center","column_name":"city"},{"name":"Created or Updated_1.current.country","label":"Trigger➛Service center Record➛Country","reference":"","reference_display":"Country","type":"string","base_type":"string","parent_table_name":"x_360894_cis_service_center","column_name":"country"},{"name":"Created or Updated_1.current.street","label":"Trigger➛Service center Record➛Street","reference":"","reference_display":"Street","type":"multi_two_lines","base_type":"multi_two_lines","parent_table_name":"x_360894_cis_service_center","column_name":"street"},{"name":"Created or Updated_1.current","label":"Trigger➛Service center Record","reference":"x_360894_cis_service_center","reference_display":"Service center","type":"reference","base_type":"reference"},{"name":"85d9b250-8812-4db0-a688-fb0dbf5ceea1.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"85d9b250-8812-4db0-a688-fb0dbf5ceea1.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"b81f6792-ef1d-46a5-8d66-1369ffb75495.longitude","label":"1➛Longitude","type":"string","base_type":"string"},{"name":"b81f6792-ef1d-46a5-8d66-1369ffb75495.lattitude","label":"1➛Lattitude","type":"string","base_type":"string"}]</label_cache>
+        <latest_snapshot>a1d16329dbf23300f868656b4b9619ed</latest_snapshot>
+        <master_snapshot>f950afa5dbf23300f868656b4b9619ae</master_snapshot>
+        <name>Set Service Center Coordinates</name>
+        <outputs/>
+        <remote_trigger_id>4650afa5dbf23300f868656b4b9619f1</remote_trigger_id>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-22 15:13:27</sys_created_on>
+        <sys_id>e3b75feddbb23300f868656b4b9619e5</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Set Service Center Coordinates</sys_name>
+        <sys_package display_value="Car Insurance Services" source="x_360894_cis">318c7562dbc23300f868656b4b96198d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Insurance Services">318c7562dbc23300f868656b4b96198d</sys_scope>
+        <sys_update_name>sys_hub_flow_e3b75feddbb23300f868656b4b9619e5</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-07-22 15:57:33</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=e3b75feddbb23300f868656b4b9619e5"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e3b75feddbb23300f868656b4b9619e5"/>
+</record_update>

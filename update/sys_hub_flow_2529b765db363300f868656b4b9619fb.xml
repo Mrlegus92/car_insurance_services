@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>With this flow the address of a Car Insurance Service is calculated</description>
+        <internal_name>set_service_center_address</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current.geolocation","label":"Trigger➛Car insurance service  Record➛Geolocation","reference":"","reference_display":"Geolocation","type":"string","base_type":"string","parent_table_name":"x_360894_cis_car_insurance_service","column_name":"geolocation"},{"name":"9298a454-8398-4051-a585-2d8c2737d0dc.street","label":"1➛Address","type":"string","base_type":"string"},{"name":"9298a454-8398-4051-a585-2d8c2737d0dc.city","label":"1➛city","type":"string","base_type":"string"},{"name":"9298a454-8398-4051-a585-2d8c2737d0dc.state","label":"1➛state","type":"string","base_type":"string"},{"name":"9298a454-8398-4051-a585-2d8c2737d0dc.zip","label":"1➛zip","type":"string","base_type":"string"},{"name":"9298a454-8398-4051-a585-2d8c2737d0dc.country","label":"1➛country","type":"string","base_type":"string"},{"name":"Created or Updated_1.current.latitude","label":"Trigger➛Service center Record➛Latitude","reference":"","reference_display":"Latitude","type":"float","base_type":"float","parent_table_name":"x_360894_cis_service_center","column_name":"latitude"},{"name":"Created or Updated_1.current.longitude","label":"Trigger➛Service center Record➛Longitude","reference":"","reference_display":"Longitude","type":"float","base_type":"float","parent_table_name":"x_360894_cis_service_center","column_name":"longitude"},{"name":"844e5586-4834-4b51-968b-e4e40ca9759a.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"844e5586-4834-4b51-968b-e4e40ca9759a.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"Created or Updated_1.current","label":"Trigger➛Car insurance service  Record","reference":"x_360894_cis_car_insurance_service","reference_display":"Car insurance service ","type":"reference","base_type":"reference"}]</label_cache>
+        <latest_snapshot>282d6516db723300f868656b4b961926</latest_snapshot>
+        <master_snapshot>df9a3be5db363300f868656b4b961981</master_snapshot>
+        <name>Set Service Center address</name>
+        <outputs/>
+        <remote_trigger_id>539a3be5db363300f868656b4b9619dc</remote_trigger_id>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-22 17:39:25</sys_created_on>
+        <sys_id>2529b765db363300f868656b4b9619fb</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Set Service Center address</sys_name>
+        <sys_package display_value="Car Insurance Services" source="x_360894_cis">318c7562dbc23300f868656b4b96198d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Insurance Services">318c7562dbc23300f868656b4b96198d</sys_scope>
+        <sys_update_name>sys_hub_flow_2529b765db363300f868656b4b9619fb</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-07-24 15:23:07</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=2529b765db363300f868656b4b9619fb"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2529b765db363300f868656b4b9619fb"/>
+</record_update>

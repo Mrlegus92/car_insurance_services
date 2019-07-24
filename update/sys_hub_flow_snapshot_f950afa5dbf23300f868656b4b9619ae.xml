@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>With this flow the service center coordinates are calculated</description>
+        <internal_name>set_service_center_coordinates</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current","label":"Trigger➛Service center Record","reference":"x_360894_cis_service_center","reference_display":"Service center","type":"reference","base_type":"reference"},{"name":"85d9b250-8812-4db0-a688-fb0dbf5ceea1.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"85d9b250-8812-4db0-a688-fb0dbf5ceea1.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"b81f6792-ef1d-46a5-8d66-1369ffb75495.longitude","label":"1➛Longitude","type":"string","base_type":"string"},{"name":"b81f6792-ef1d-46a5-8d66-1369ffb75495.lattitude","label":"1➛Lattitude","type":"string","base_type":"string"}]</label_cache>
+        <master>true</master>
+        <name>Set Service Center Coordinates</name>
+        <outputs/>
+        <parent_flow display_value="Set Service Center Coordinates">e3b75feddbb23300f868656b4b9619e5</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-22 15:51:01</sys_created_on>
+        <sys_id>f950afa5dbf23300f868656b4b9619ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Service Center Coordinates</sys_name>
+        <sys_package display_value="Car Insurance Services" source="x_360894_cis">318c7562dbc23300f868656b4b96198d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Insurance Services">318c7562dbc23300f868656b4b96198d</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_f950afa5dbf23300f868656b4b9619ae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-22 15:51:01</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=f950afa5dbf23300f868656b4b9619ae"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f950afa5dbf23300f868656b4b9619ae"/>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_param_defs">
+    <sys_rest_message_fn_param_defs action="INSERT_OR_UPDATE">
+        <name>latlng</name>
+        <order>100</order>
+        <rest_message_function display_value="Default GET">55fc2b6ddbf23300f868656b4b96193b</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_param_defs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-22 16:47:35</sys_created_on>
+        <sys_id>b6fca7addbf23300f868656b4b961944</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>latlng</sys_name>
+        <sys_package display_value="Car Insurance Services" source="x_360894_cis">318c7562dbc23300f868656b4b96198d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Insurance Services">318c7562dbc23300f868656b4b96198d</sys_scope>
+        <sys_update_name>sys_rest_message_fn_param_defs_b6fca7addbf23300f868656b4b961944</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-22 17:00:21</sys_updated_on>
+        <value>19.2988632,-99.1270761</value>
+    </sys_rest_message_fn_param_defs>
+</record_update>

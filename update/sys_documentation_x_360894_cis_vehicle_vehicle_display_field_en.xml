@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="vehicle_display_field" label="Vehicle display field" language="en" table="x_360894_cis_vehicle">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>vehicle_display_field</element>
+            <help/>
+            <hint/>
+            <label>Vehicle display field</label>
+            <language>en</language>
+            <name>x_360894_cis_vehicle</name>
+            <plural>Vehicle display fields</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-25 13:40:13</sys_created_on>
+            <sys_id>a27f3f3cdb523300f868656b4b9619a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Vehicle display field</sys_name>
+            <sys_package display_value="Car Insurance Services" source="x_360894_cis">318c7562dbc23300f868656b4b96198d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Car Insurance Services">318c7562dbc23300f868656b4b96198d</sys_scope>
+            <sys_update_name>sys_documentation_x_360894_cis_vehicle_vehicle_display_field_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-25 13:40:13</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

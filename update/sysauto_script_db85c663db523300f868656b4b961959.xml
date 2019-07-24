@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>CIS - Notification of policy insurance expiration </name>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2019-06-19 15:04:40</run_start>
+        <run_time>1970-01-01 10:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[// por medio de este job se determina si una poliza esta apunto de expirar, en caso de ser asi se dispara un evento que una notificación debe de tenenr en sus parámetros 
+
+checkActivePolicies();
+
+function checkActivePolicies(){
+
+var actual_date = new GlideDate();
+var days_notification = gs.getProperty('x_360894_cis.Car_insurance_services_days_before_expiration_notification');
+
+//primeramente tenemos que recorrer cada poliza aztiva
+
+var policy = new GlideRecord('x_360894_cis_insurance_policy');
+policy.addQuery('active',true);
+policy.query();
+
+while(policy.next())
+	//revisamos que la fecha end_date
+	{
+		var end_date = new GlideDateTime(policy.end_date);
+		var duration = new GlideDateTime.subtract(actual_date,end_date);
+		var duration_days = duration.getDayPart();
+		if (duration_days == days_notification)
+			{
+				gs.eventQueue('x_360894_cis.CIS - Notification of expir',policy,gs.getUserID(),end_date.toString());
+				
+				
+			}
+		
+	}
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-03 17:50:48</sys_created_on>
+        <sys_id>db85c663db523300f868656b4b961959</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>CIS - Notification of policy insurance expiration </sys_name>
+        <sys_package display_value="Car Insurance Services" source="x_360894_cis">318c7562dbc23300f868656b4b96198d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Insurance Services">318c7562dbc23300f868656b4b96198d</sys_scope>
+        <sys_update_name>sysauto_script_db85c663db523300f868656b4b961959</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-04 14:56:46</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

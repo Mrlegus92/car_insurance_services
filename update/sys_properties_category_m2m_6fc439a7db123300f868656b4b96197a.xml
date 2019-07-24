@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="Car insurance services properties">b234b1a7db123300f868656b4b961937</category>
+        <order>100</order>
+        <property display_value="x_360894_cis.Car_insurance_services_days_before_expiration_notification" name="x_360894_cis.Car_insurance_services_days_before_expiration_notification">d6b13127db123300f868656b4b961913</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-03 16:37:39</sys_created_on>
+        <sys_id>6fc439a7db123300f868656b4b96197a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_360894_cis.Car_insurance_services_days_before_expiration_notification.Car insurance services </sys_name>
+        <sys_package display_value="Car Insurance Services" source="x_360894_cis">318c7562dbc23300f868656b4b96198d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Insurance Services">318c7562dbc23300f868656b4b96198d</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_6fc439a7db123300f868656b4b96197a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-03 16:37:39</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>

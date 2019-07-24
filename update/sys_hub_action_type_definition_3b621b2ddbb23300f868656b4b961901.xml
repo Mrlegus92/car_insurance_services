@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>get_coordinate_from_address</internal_name>
+        <label_cache>[{"name":"{{action.street}}","label":"action➛Street","type":"action","ref":""},{"name":"{{action.city}}","label":"action➛City","type":"action","ref":""},{"name":"{{action.state_providence}}","label":"action➛State/Providence","type":"action","ref":""},{"name":"{{action.zip_postal_code}}","label":"action➛ZIP/Postal Code","type":"action","ref":""},{"name":"{{action.country}}","label":"action➛Country","type":"action","ref":""},{"name":"{{step[3d11bbe5-6c0d-41cf-a15b-669b80111ead].}}","label":"step➛Consume Geocoding service➛","type":"step","ref":""},{"name":"{{step[3d11bbe5-6c0d-41cf-a15b-669b80111ead].l}}","label":"step➛Consume Geocoding service➛l","type":"step","ref":""},{"name":"{{step[3d11bbe5-6c0d-41cf-a15b-669b80111ead].la}}","label":"step➛Consume Geocoding service➛la","type":"step","ref":""},{"name":"{{step[3d11bbe5-6c0d-41cf-a15b-669b80111ead].lat}}","label":"step➛Consume Geocoding service➛lat","type":"step","ref":""},{"name":"{{step[3d11bbe5-6c0d-41cf-a15b-669b80111ead].ln}}","label":"step➛Consume Geocoding service➛ln","type":"step","ref":""},{"name":"{{step[3d11bbe5-6c0d-41cf-a15b-669b80111ead].lng}}","label":"step➛Consume Geocoding service➛lng","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>b8af57a5dbf23300f868656b4b961917</latest_snapshot>
+        <master_snapshot>41af57a5dbf23300f868656b4b961981</master_snapshot>
+        <name>Get coordinate from address</name>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-22 14:50:15</sys_created_on>
+        <sys_id>3b621b2ddbb23300f868656b4b961901</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Get coordinate from address</sys_name>
+        <sys_package display_value="Car Insurance Services" source="x_360894_cis">318c7562dbc23300f868656b4b96198d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Insurance Services">318c7562dbc23300f868656b4b96198d</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_3b621b2ddbb23300f868656b4b961901</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-22 15:47:59</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=3b621b2ddbb23300f868656b4b961901"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3b621b2ddbb23300f868656b4b961901"/>
+    <sys_element_mapping action="delete_multiple" query="id=3b621b2ddbb23300f868656b4b961901"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>lattitude</field>
+        <id>3b621b2ddbb23300f868656b4b961901</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-22 15:43:28</sys_created_on>
+        <sys_id>df9e9b65dbf23300f868656b4b96190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-22 15:43:28</sys_updated_on>
+        <table>var__m_sys_hub_action_output_3b621b2ddbb23300f868656b4b961901</table>
+        <value>{{step[3d11bbe5-6c0d-41cf-a15b-669b80111ead].lat}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>longitude</field>
+        <id>3b621b2ddbb23300f868656b4b961901</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-22 15:43:28</sys_created_on>
+        <sys_id>939e9b65dbf23300f868656b4b96190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-22 15:43:28</sys_updated_on>
+        <table>var__m_sys_hub_action_output_3b621b2ddbb23300f868656b4b961901</table>
+        <value>{{step[3d11bbe5-6c0d-41cf-a15b-669b80111ead].lng}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>response_body</field>
+        <id>3b621b2ddbb23300f868656b4b961901</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-22 15:20:35</sys_created_on>
+        <sys_id>7b59d7a1dbf23300f868656b4b9619d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-22 15:20:35</sys_updated_on>
+        <table>var__m_sys_hub_action_output_3b621b2ddbb23300f868656b4b961901</table>
+        <value>{{step[3d11bbe5-6c0d-41cf-a15b-669b80111ead].responseBody}}</value>
+    </sys_element_mapping>
+</record_update>

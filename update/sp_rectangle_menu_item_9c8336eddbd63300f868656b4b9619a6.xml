@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rectangle_menu_item">
+    <sp_rectangle_menu_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <color>default</color>
+        <condition/>
+        <display_1>number</display_1>
+        <display_2>short_description</display_2>
+        <display_date>sys_updated_on</display_date>
+        <filter table="x_360894_cis_car_insurance_service">insurance_userDYNAMIC3d6b2e69dbd63300f868656b4b96196d^active=true^EQ<item endquery="false" field="insurance_user" goto="false" newquery="false" operator="DYNAMIC" or="false" value="3d6b2e69dbd63300f868656b4b96196d"/>
+            <item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <glyph>signal</glyph>
+        <hint/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <label>My services</label>
+        <order>100</order>
+        <record_script/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <sp_page/>
+        <sp_rectangle_menu display_value="SP Header Menu 2">fcb2766ddbd63300f868656b4b9619e9</sp_rectangle_menu>
+        <sp_rectangle_menu_item/>
+        <sys_class_name>sp_rectangle_menu_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-27 16:04:52</sys_created_on>
+        <sys_id>9c8336eddbd63300f868656b4b9619a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My services</sys_name>
+        <sys_package display_value="Car Insurance Services" source="x_360894_cis">318c7562dbc23300f868656b4b96198d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Insurance Services">318c7562dbc23300f868656b4b96198d</sys_scope>
+        <sys_update_name>sp_rectangle_menu_item_9c8336eddbd63300f868656b4b9619a6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-27 16:04:52</sys_updated_on>
+        <table>x_360894_cis_car_insurance_service</table>
+        <type>filtered</type>
+        <url/>
+        <url_target/>
+    </sp_rectangle_menu_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=9c8336eddbd63300f868656b4b9619a6"/>
+</record_update>

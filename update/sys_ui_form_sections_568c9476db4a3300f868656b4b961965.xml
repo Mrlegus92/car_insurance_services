@@ -17,16 +17,30 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-24 15:15:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>466be1d2db723300f868656b4b96191c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_360894_cis_car_insurance_service" name="x_360894_cis_car_insurance_service" sys_domain="global" view="Default view">568c9476db4a3300f868656b4b961965</sys_ui_form>
+            <sys_ui_section caption="Location Information" display_value="Location Information" name="x_360894_cis_car_insurance_service" sys_domain="global" view="Default view">4a6b61d2db723300f868656b4b9619ee</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-24 15:15:35</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-06-18 16:00:50</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>528c9476db4a3300f868656b4b961968</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_360894_cis_car_insurance_service" name="x_360894_cis_car_insurance_service" sys_domain="global" view="Default view">568c9476db4a3300f868656b4b961965</sys_ui_form>
             <sys_ui_section caption="Notes" display_value="Notes" name="x_360894_cis_car_insurance_service" sys_domain="global" view="Default view">da8c9476db4a3300f868656b4b961964</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-18 16:00:50</sys_updated_on>
+            <sys_updated_on>2019-07-24 15:15:35</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_360894_cis_car_insurance_service</name>
