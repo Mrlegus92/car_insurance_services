@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_360894_cis.getDistanceBetweenCoordinates</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>getDistanceBetweenCoordinates</name>
+        <script><![CDATA[function getDistanceBetweenCoordinates(lat1,lon1,lat2,lon2) {
+    
+    var R = 6371; // km (change this constant to get miles)
+    var dLat = (lat2-lat1) * Math.PI / 180;
+    var dLon = (lon2-lon1) * Math.PI / 180;
+    var a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+        Math.cos(lat1 * Math.PI / 180 ) * Math.cos(lat2 * Math.PI / 180 ) *
+        Math.sin(dLon/2) * Math.sin(dLon/2);
+    var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+    var distance = R * c * 1000; //distance in meters
+    
+    return distance;
+    
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-01 15:32:27</sys_created_on>
+        <sys_id>dc8bb2fcdb433300f868656b4b961932</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>getDistanceBetweenCoordinates</sys_name>
+        <sys_package display_value="Car Insurance Services" source="x_360894_cis">318c7562dbc23300f868656b4b96198d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Car Insurance Services">318c7562dbc23300f868656b4b96198d</sys_scope>
+        <sys_update_name>sys_script_include_dc8bb2fcdb433300f868656b4b961932</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-01 15:36:41</sys_updated_on>
+    </sys_script_include>
+</record_update>

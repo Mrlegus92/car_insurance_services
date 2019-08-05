@@ -4,27 +4,69 @@
             <element>geolocation</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-24 15:29:00</sys_created_on>
-            <sys_id>7e7ea156db723300f868656b4b9619b8</sys_id>
+            <sys_created_on>2019-08-02 17:28:39</sys_created_on>
+            <sys_id>5f20e895db433300f868656b4b96199f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Location Information" display_value="Location Information" name="x_360894_cis_car_insurance_service" sys_domain="global" view="Default view">4a6b61d2db723300f868656b4b9619ee</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-24 15:29:00</sys_updated_on>
+            <sys_updated_on>2019-08-02 17:28:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>address</element>
+            <element>longitude</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-24 15:29:00</sys_created_on>
-            <sys_id>fe7ea156db723300f868656b4b9619b8</sys_id>
+            <sys_created_on>2019-08-02 17:28:39</sys_created_on>
+            <sys_id>df20e895db433300f868656b4b96199f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Location Information" display_value="Location Information" name="x_360894_cis_car_insurance_service" sys_domain="global" view="Default view">4a6b61d2db723300f868656b4b9619ee</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-24 15:29:00</sys_updated_on>
+            <sys_updated_on>2019-08-02 17:28:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>latitude</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-02 17:28:39</sys_created_on>
+            <sys_id>5320e895db433300f868656b4b9619a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Location Information" display_value="Location Information" name="x_360894_cis_car_insurance_service" sys_domain="global" view="Default view">4a6b61d2db723300f868656b4b9619ee</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-02 17:28:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-02 17:28:39</sys_created_on>
+            <sys_id>d320e895db433300f868656b4b9619a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Location Information" display_value="Location Information" name="x_360894_cis_car_insurance_service" sys_domain="global" view="Default view">4a6b61d2db723300f868656b4b9619ee</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-02 17:28:39</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>address</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-02 17:28:39</sys_created_on>
+            <sys_id>5720e895db433300f868656b4b9619a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Location Information" display_value="Location Information" name="x_360894_cis_car_insurance_service" sys_domain="global" view="Default view">4a6b61d2db723300f868656b4b9619ee</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-02 17:28:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

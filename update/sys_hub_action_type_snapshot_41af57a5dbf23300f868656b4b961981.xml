@@ -11,22 +11,22 @@
         <internal_name>get_coordinate_from_address</internal_name>
         <label_cache>[{"name":"{{action.street}}","label":"action➛Street","type":"action","ref":""},{"name":"{{action.city}}","label":"action➛City","type":"action","ref":""},{"name":"{{action.state_providence}}","label":"action➛State/Providence","type":"action","ref":""},{"name":"{{action.zip_postal_code}}","label":"action➛ZIP/Postal Code","type":"action","ref":""},{"name":"{{action.country}}","label":"action➛Country","type":"action","ref":""},{"name":"{{step[3d11bbe5-6c0d-41cf-a15b-669b80111ead].}}","label":"step➛Consume Geocoding service➛","type":"step","ref":""},{"name":"{{step[3d11bbe5-6c0d-41cf-a15b-669b80111ead].l}}","label":"step➛Consume Geocoding service➛l","type":"step","ref":""},{"name":"{{step[3d11bbe5-6c0d-41cf-a15b-669b80111ead].la}}","label":"step➛Consume Geocoding service➛la","type":"step","ref":""},{"name":"{{step[3d11bbe5-6c0d-41cf-a15b-669b80111ead].lat}}","label":"step➛Consume Geocoding service➛lat","type":"step","ref":""},{"name":"{{step[3d11bbe5-6c0d-41cf-a15b-669b80111ead].ln}}","label":"step➛Consume Geocoding service➛ln","type":"step","ref":""},{"name":"{{step[3d11bbe5-6c0d-41cf-a15b-669b80111ead].lng}}","label":"step➛Consume Geocoding service➛lng","type":"step","ref":""}]</label_cache>
         <master>true</master>
-        <name>Get coordinate from address</name>
+        <name>Get coordinate from address (segmented input))</name>
         <outputs/>
         <outputs/>
-        <parent_action display_value="Get coordinate from address">3b621b2ddbb23300f868656b4b961901</parent_action>
+        <parent_action display_value="Get coordinate from address (segmented input))">3b621b2ddbb23300f868656b4b961901</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-07-22 15:47:58</sys_created_on>
         <sys_id>41af57a5dbf23300f868656b4b961981</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Get coordinate from address</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Get coordinate from address (segmented input))</sys_name>
         <sys_package display_value="Car Insurance Services" source="x_360894_cis">318c7562dbc23300f868656b4b96198d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car Insurance Services">318c7562dbc23300f868656b4b96198d</sys_scope>
         <sys_update_name>sys_hub_action_type_snapshot_41af57a5dbf23300f868656b4b961981</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-07-22 15:47:59</sys_updated_on>
+        <sys_updated_on>2019-08-01 14:40:40</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>

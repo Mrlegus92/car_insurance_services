@@ -38,7 +38,7 @@
         <label>State/Providence</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Get coordinate from address">41af57a5dbf23300f868656b4b961981</model>
+        <model display_value="Get coordinate from address (segmented input))">41af57a5dbf23300f868656b4b961981</model>
         <model_id>41af57a5dbf23300f868656b4b961981</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_41af57a5dbf23300f868656b4b961981</name>

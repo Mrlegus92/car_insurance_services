@@ -38,7 +38,7 @@
         <label>Table Name</label>
         <mandatory>false</mandatory>
         <max_length>200</max_length>
-        <model display_value="Set Service Center address">2529b765db363300f868656b4b9619fb</model>
+        <model display_value="Set Car Insurance Service Coordinates ">2529b765db363300f868656b4b9619fb</model>
         <model_id>2529b765db363300f868656b4b9619fb</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_2529b765db363300f868656b4b9619fb</name>

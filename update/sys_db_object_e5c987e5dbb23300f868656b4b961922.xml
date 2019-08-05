@@ -32,7 +32,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-07-22 14:14:19</sys_updated_on>
         <update_access>false</update_access>
-        <user_role display_value="x_360894_cis.service_center_user" name="x_360894_cis.service_center_user">b43a87e5dbb23300f868656b4b9619fa</user_role>
+        <user_role/>
         <ws_access>true</ws_access>
     </sys_db_object>
 </record_update>

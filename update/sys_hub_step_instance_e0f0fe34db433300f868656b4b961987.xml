@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_step_instance">
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get coordinate from address ">68f0fe34db433300f868656b4b961971</action>
+        <cid>3d11bbe5-6c0d-41cf-a15b-669b80111ead</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Consume Geocoding service</label>
+        <order>1</order>
+        <outputs/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-01 14:44:12</sys_created_on>
+        <sys_id>e0f0fe34db433300f868656b4b961987</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Consume Geocoding service</sys_name>
+        <sys_package display_value="Car Insurance Services" source="x_360894_cis">318c7562dbc23300f868656b4b96198d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Insurance Services">318c7562dbc23300f868656b4b96198d</sys_scope>
+        <sys_update_name>sys_hub_step_instance_e0f0fe34db433300f868656b4b961987</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-01 14:44:12</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e0f0fe34db433300f868656b4b961987"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e0f0fe34db433300f868656b4b961987</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-01 14:44:12</sys_created_on>
+        <sys_id>2cf0fe34db433300f868656b4b96199b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-01 14:44:12</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+// Por medio de este script se consume el mensaje Rest "Google Geocoding" para obtener a partir de una direccion las coordenadas geográficas correspondientes a dicha dirección.
+  
+  
+ //seteamos variables
+  var address = inputs.address;
+  
+  address = address.split(' ').join('+');
+  var key = gs.getProperty('x_360894_cis.googleAPIKey');
+  
+  try { 
+ var r = new sn_ws.RESTMessageV2('x_360894_cis.Google Geocoding', 'GET Coordinates ');
+
+    r.setQueryParameter("address",address);
+    r.setQueryParameter("key",key);
+ var response = r.execute();
+ var responseBody = response.getBody();
+ var httpStatus = response.getStatusCode();
+    
+   //parseamos el objeto Json de respuesta 
+  var parser = new global.JSON();
+  var obj = parser.decode(responseBody);
+    
+  var lat = obj.results[0].geometry.location.lat;
+  
+  var lng = obj.results[0].geometry.location.lng;
+    
+    outputs.lat = lat;
+    outputs.lng = lng;
+    
+}
+catch(ex) {
+ var message = ex.message;
+}
+  
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e0f0fe34db433300f868656b4b961987</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-01 14:44:12</sys_created_on>
+        <sys_id>68f0fe34db433300f868656b4b96199b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-01 14:44:12</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e0f0fe34db433300f868656b4b961987"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>address</field>
+        <id>e0f0fe34db433300f868656b4b961987</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-01 14:44:12</sys_created_on>
+        <sys_id>a4f0fe34db433300f868656b4b96199c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-01 14:44:12</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_e0f0fe34db433300f868656b4b961987</table>
+        <value>{{action.country}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>e0f0fe34db433300f868656b4b961987</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-01 14:44:12</sys_created_on>
+        <sys_id>24f0fe34db433300f868656b4b96199b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-01 14:44:12</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>e0f0fe34db433300f868656b4b961987</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-01 14:44:12</sys_created_on>
+        <sys_id>e4f0fe34db433300f868656b4b96199b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-01 14:44:12</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

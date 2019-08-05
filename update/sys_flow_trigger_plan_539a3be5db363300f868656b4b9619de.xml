@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_trigger_plan">
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
-        <binding_strategy>com.snc.process_flow.engine.binding.OncePerUniqueChange</binding_strategy>
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"539a3be5db363300f868656b4b9619de","name":"plan"}}</plan>
         <plan_id>2529b765db363300f868656b4b9619fb</plan_id>
-        <snapshot>282d6516db723300f868656b4b961926</snapshot>
+        <snapshot>744b2011db833300f868656b4b961953</snapshot>
         <sys_class_name>sys_flow_trigger_plan</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-07-22 17:45:49</sys_created_on>
         <sys_id>539a3be5db363300f868656b4b9619de</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>539a3be5db363300f868656b4b9619dc</sys_name>
         <sys_package display_value="Car Insurance Services" source="x_360894_cis">318c7562dbc23300f868656b4b96198d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car Insurance Services">318c7562dbc23300f868656b4b96198d</sys_scope>
         <sys_update_name>sys_flow_trigger_plan_539a3be5db363300f868656b4b9619de</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-07-24 15:22:24</sys_updated_on>
+        <sys_updated_on>2019-08-02 18:00:40</sys_updated_on>
         <trigger display_value="">539a3be5db363300f868656b4b9619dc</trigger>
     </sys_flow_trigger_plan>
 </record_update>

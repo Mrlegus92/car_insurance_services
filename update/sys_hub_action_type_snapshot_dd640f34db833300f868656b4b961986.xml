@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <annotation>Determina el centro de servicio m&amp;amp;amp;amp;amp;amp;aacute;s cercano dadas ciertas coordenadas geogr&amp;amp;amp;amp;amp;amp;aacute;ficas</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Service Center">d9614fb0db833300f868656b4b9619f4</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Esta acci&amp;amp;amp;amp;amp;amp;oacute;n determina el centro de servicio m&amp;amp;amp;amp;amp;amp;aacute;s cercano dadas ciertas coordenadas geogr&amp;amp;amp;amp;amp;amp;aacute;ficas</description>
+        <internal_name>determine_closer_service_center</internal_name>
+        <label_cache>[{"name":"{{action.latitude}}","label":"action➛Latitude","type":"action","ref":""},{"name":"{{action.longitude}}","label":"action➛Longitude","type":"action","ref":""},{"name":"{{step[1a3ecb6b-2e4d-488e-a119-779c17ec10d9].}}","label":"step➛Script step➛","type":"step","ref":""},{"name":"{{step[1a3ecb6b-2e4d-488e-a119-779c17ec10d9].c}}","label":"step➛Script step➛c","type":"step","ref":""},{"name":"{{step[1a3ecb6b-2e4d-488e-a119-779c17ec10d9].closest_service_center_sysid}}","label":"step➛Script step➛closest_service_center_sysid","type":"step","ref":""},{"name":"{{step[1a3ecb6b-2e4d-488e-a119-779c17ec10d9].closest_service_center_name}}","label":"step➛Script step➛closest_service_center_name","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Determine closer service center</name>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Determine closer service center">2da103f0db833300f868656b4b9619a8</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-01 16:09:10</sys_created_on>
+        <sys_id>dd640f34db833300f868656b4b961986</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Determine closer service center</sys_name>
+        <sys_package display_value="Car Insurance Services" source="x_360894_cis">318c7562dbc23300f868656b4b96198d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Insurance Services">318c7562dbc23300f868656b4b96198d</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_dd640f34db833300f868656b4b961986</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-02 17:58:18</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=dd640f34db833300f868656b4b961986"/>
+    <sys_variable_value action="delete_multiple" query="document_key=dd640f34db833300f868656b4b961986"/>
+    <sys_element_mapping action="delete_multiple" query="id=dd640f34db833300f868656b4b961986"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>closest_service_center</field>
+        <id>dd640f34db833300f868656b4b961986</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-01 16:09:11</sys_created_on>
+        <sys_id>69640f34db833300f868656b4b9619c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-01 16:09:11</sys_updated_on>
+        <table>var__m_sys_hub_action_output_dd640f34db833300f868656b4b961986</table>
+        <value>{{step[1a3ecb6b-2e4d-488e-a119-779c17ec10d9].closest_service_center_sysid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>closest_service_center2</field>
+        <id>dd640f34db833300f868656b4b961986</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-02 17:49:48</sys_created_on>
+        <sys_id>4905ac99db433300f868656b4b961933</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-02 17:49:48</sys_updated_on>
+        <table>var__m_sys_hub_action_output_dd640f34db833300f868656b4b961986</table>
+        <value>{{step[1a3ecb6b-2e4d-488e-a119-779c17ec10d9].closest_service_center_name}}</value>
+    </sys_element_mapping>
+</record_update>
